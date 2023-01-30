@@ -1,10 +1,10 @@
 {
   "name": "banali-react-leaflet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Banali React custom components for Leaflet maps.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PaulLeCam/react-leaflet.git"
+    "url": "https://github.com/aohayk/banali-react-leaflet"
   },
   "keywords": [
     "react-component",
@@ -12,10 +12,10 @@
     "leaflet",
     "map"
   ],
-  "author": "Paul Le Cam <paul@ulem.net>",
+  "author": "Hayk AOByte",
   "license": "Hippocratic-2.1",
   "bugs": {
-    "url": "https://github.com/PaulLeCam/react-leaflet/issues"
+    "url": "https://github.com/aohayk/banali-react-leaflet"
   },
   "homepage": "https://react-leaflet.js.org",
   "type": "module",
