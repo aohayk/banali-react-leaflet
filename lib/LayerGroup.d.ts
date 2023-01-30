@@ -1,5 +1,5 @@
 import { EventedProps } from '@react-leaflet/core';
-import { LayerGroup as LeafletLayerGroup, type LayerOptions } from 'leaflet';
+import { LayerGroup as LeafletLayerGroup, LayerOptions } from 'leaflet';
 import type { ReactNode } from 'react';
 export interface LayerGroupProps extends LayerOptions, EventedProps {
     children?: ReactNode;

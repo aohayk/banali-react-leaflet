@@ -1,6 +1,6 @@
 /// <reference types="react" />
 import { LayerProps } from '@react-leaflet/core';
-import { TileLayer as LeafletTileLayer, type TileLayerOptions } from 'leaflet';
+import { TileLayer as LeafletTileLayer, TileLayerOptions } from 'leaflet';
 export interface TileLayerProps extends TileLayerOptions, LayerProps {
     url: string;
 }
