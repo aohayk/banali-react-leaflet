@@ -1,6 +1,6 @@
 {
   "name": "banali-react-leaflet",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Banali React custom components for Leaflet maps.",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "author": "Hayk AOByte",
   "license": "Hippocratic-2.1",
   "bugs": {
-    "url": "https://github.com/aohayk/banali-react-leaflet"
+    "url": "https://github.com/aohayk/banali-react-leaflet/issues"
   },
   "homepage": "https://react-leaflet.js.org",
   "type": "module",
