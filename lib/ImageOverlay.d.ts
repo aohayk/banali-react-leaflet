@@ -1,4 +1,4 @@
-import { MediaOverlayProps } from '@react-leaflet/core';
+import { MediaOverlayProps } from 'banali-core';
 import { ImageOverlay as LeafletImageOverlay } from 'leaflet';
 import type { ReactNode } from 'react';
 export interface ImageOverlayProps extends MediaOverlayProps {

@@ -1,4 +1,4 @@
-import { PathProps } from '@react-leaflet/core';
+import { PathProps } from 'banali-core';
 import { LatLngExpression, Polyline as LeafletPolyline, PolylineOptions } from 'leaflet';
 import type { ReactNode } from 'react';
 export interface PolylineProps extends PolylineOptions, PathProps {

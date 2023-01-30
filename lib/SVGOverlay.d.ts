@@ -1,4 +1,4 @@
-import { MediaOverlayProps } from '@react-leaflet/core';
+import { MediaOverlayProps } from 'banali-core';
 import { SVGOverlay as LeafletSVGOverlay } from 'leaflet';
 import { ReactNode } from 'react';
 export interface SVGOverlayProps extends MediaOverlayProps {
@@ -8,7 +8,7 @@ export interface SVGOverlayProps extends MediaOverlayProps {
 export declare const useSVGOverlayElement: (props: SVGOverlayProps, context: Readonly<{
     __version: number;
     map: import("leaflet").Map;
-    layerContainer?: import("leaflet").LayerGroup<any> | import("@react-leaflet/core/lib/context").ControlledLayer | undefined;
+    layerContainer?: import("leaflet").LayerGroup<any> | import("banali-core/lib/context").ControlledLayer | undefined;
     layersControl?: import("leaflet").Control.Layers | undefined;
     overlayContainer?: import("leaflet").Layer | undefined;
     pane?: string | undefined;
@@ -17,7 +17,7 @@ export declare const useSVGOverlayElement: (props: SVGOverlayProps, context: Rea
     context: Readonly<{
         __version: number;
         map: import("leaflet").Map;
-        layerContainer?: import("leaflet").LayerGroup<any> | import("@react-leaflet/core/lib/context").ControlledLayer | undefined;
+        layerContainer?: import("leaflet").LayerGroup<any> | import("banali-core/lib/context").ControlledLayer | undefined;
         layersControl?: import("leaflet").Control.Layers | undefined;
         overlayContainer?: import("leaflet").Layer | undefined;
         pane?: string | undefined;
@@ -29,7 +29,7 @@ export declare const useSVGOverlay: (props: SVGOverlayProps) => import("react").
     context: Readonly<{
         __version: number;
         map: import("leaflet").Map;
-        layerContainer?: import("leaflet").LayerGroup<any> | import("@react-leaflet/core/lib/context").ControlledLayer | undefined;
+        layerContainer?: import("leaflet").LayerGroup<any> | import("banali-core/lib/context").ControlledLayer | undefined;
         layersControl?: import("leaflet").Control.Layers | undefined;
         overlayContainer?: import("leaflet").Layer | undefined;
         pane?: string | undefined;

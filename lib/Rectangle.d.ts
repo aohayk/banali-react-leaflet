@@ -1,4 +1,4 @@
-import { PathProps } from '@react-leaflet/core';
+import { PathProps } from 'banali-core';
 import { LatLngBoundsExpression, Rectangle as LeafletRectangle, PathOptions } from 'leaflet';
 import type { ReactNode } from 'react';
 export interface RectangleProps extends PathOptions, PathProps {

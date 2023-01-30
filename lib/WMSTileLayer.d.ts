@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { LayerProps } from '@react-leaflet/core';
+import { LayerProps } from 'banali-core';
 import { TileLayer, WMSOptions, WMSParams } from 'leaflet';
 export interface WMSTileLayerProps extends WMSOptions, LayerProps {
     params?: WMSParams;

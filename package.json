@@ -1,6 +1,6 @@
 {
   "name": "banali-react-leaflet",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Banali React custom components for Leaflet maps.",
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
   ],
   "sideEffects": false,
   "dependencies": {
-    "@react-leaflet/core": "^2.1.0"
+    "banali-core": "^2.1.0"
   },
   "peerDependencies": {
     "leaflet": "^1.9.0",

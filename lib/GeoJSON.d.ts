@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { PathProps } from '@react-leaflet/core';
+import { PathProps } from 'banali-core';
 import type { GeoJsonObject } from 'geojson';
 import { GeoJSON as LeafletGeoJSON, GeoJSONOptions } from 'leaflet';
 import type { LayerGroupProps } from './LayerGroup.js';

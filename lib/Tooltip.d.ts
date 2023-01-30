@@ -1,4 +1,4 @@
-import { EventedProps } from '@react-leaflet/core';
+import { EventedProps } from 'banali-core';
 import { LatLngExpression, Tooltip as LeafletTooltip, TooltipOptions } from 'leaflet';
 import { ReactNode } from 'react';
 export interface TooltipProps extends TooltipOptions, EventedProps {

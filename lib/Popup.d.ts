@@ -1,4 +1,4 @@
-import { EventedProps } from '@react-leaflet/core';
+import { EventedProps } from 'banali-core';
 import { LatLngExpression, Popup as LeafletPopup, PopupOptions } from 'leaflet';
 import { ReactNode } from 'react';
 export interface PopupProps extends PopupOptions, EventedProps {

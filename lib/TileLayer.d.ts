@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { LayerProps } from '@react-leaflet/core';
+import { LayerProps } from 'banali-core';
 import { TileLayer as LeafletTileLayer, TileLayerOptions } from 'leaflet';
 export interface TileLayerProps extends TileLayerOptions, LayerProps {
     url: string;
