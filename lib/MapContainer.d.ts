@@ -1,5 +1,5 @@
-import { type FitBoundsOptions, type LatLngBoundsExpression, Map as LeafletMap, type MapOptions } from 'leaflet';
-import React, { type CSSProperties, type ReactNode } from 'react';
+import { FitBoundsOptions, LatLngBoundsExpression, Map as LeafletMap, MapOptions } from 'leaflet';
+import React, { CSSProperties, ReactNode } from 'react';
 export interface MapContainerProps extends MapOptions {
     bounds?: LatLngBoundsExpression;
     boundsOptions?: FitBoundsOptions;

@@ -1,6 +1,6 @@
-import { type MediaOverlayProps } from '@react-leaflet/core';
+import { MediaOverlayProps } from '@react-leaflet/core';
 import { SVGOverlay as LeafletSVGOverlay } from 'leaflet';
-import { type ReactNode } from 'react';
+import { ReactNode } from 'react';
 export interface SVGOverlayProps extends MediaOverlayProps {
     attributes?: Record<string, string>;
     children?: ReactNode;

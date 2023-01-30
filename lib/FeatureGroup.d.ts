@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { type PathProps } from '@react-leaflet/core';
+import { PathProps } from '@react-leaflet/core';
 import { FeatureGroup as LeafletFeatureGroup } from 'leaflet';
 import type { LayerGroupProps } from './LayerGroup.js';
 export interface FeatureGroupProps extends LayerGroupProps, PathProps {

@@ -1,7 +1,7 @@
 /// <reference types="react" />
-import { type PathProps } from '@react-leaflet/core';
+import { PathProps } from '@react-leaflet/core';
 import type { GeoJsonObject } from 'geojson';
-import { GeoJSON as LeafletGeoJSON, type GeoJSONOptions } from 'leaflet';
+import { GeoJSON as LeafletGeoJSON, GeoJSONOptions } from 'leaflet';
 import type { LayerGroupProps } from './LayerGroup.js';
 export interface GeoJSONProps extends GeoJSONOptions, LayerGroupProps, PathProps {
     data: GeoJsonObject;

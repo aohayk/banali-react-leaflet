@@ -1,6 +1,6 @@
-import { type EventedProps } from '@react-leaflet/core';
-import { type LatLngExpression, Tooltip as LeafletTooltip, type TooltipOptions } from 'leaflet';
-import { type ReactNode } from 'react';
+import { EventedProps } from '@react-leaflet/core';
+import { LatLngExpression, Tooltip as LeafletTooltip, TooltipOptions } from 'leaflet';
+import { ReactNode } from 'react';
 export interface TooltipProps extends TooltipOptions, EventedProps {
     children?: ReactNode;
     position?: LatLngExpression;

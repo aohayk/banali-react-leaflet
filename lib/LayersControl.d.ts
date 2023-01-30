@@ -1,5 +1,5 @@
-import { Control, type Layer } from 'leaflet';
-import React, { type ForwardRefExoticComponent, type FunctionComponent, type ReactNode, type RefAttributes } from 'react';
+import { Control, Layer } from 'leaflet';
+import React, { ForwardRefExoticComponent, FunctionComponent, ReactNode, RefAttributes } from 'react';
 export interface LayersControlProps extends Control.LayersOptions {
     children?: ReactNode;
 }

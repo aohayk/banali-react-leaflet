@@ -1,5 +1,5 @@
-import { type EventedProps } from '@react-leaflet/core';
-import { type LatLngExpression, Marker as LeafletMarker, type MarkerOptions } from 'leaflet';
+import { EventedProps } from '@react-leaflet/core';
+import { LatLngExpression, Marker as LeafletMarker, MarkerOptions } from 'leaflet';
 import type { ReactNode } from 'react';
 export interface MarkerProps extends MarkerOptions, EventedProps {
     children?: ReactNode;

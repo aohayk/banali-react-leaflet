@@ -1,5 +1,5 @@
-import { type PathProps } from '@react-leaflet/core';
-import { type LatLngExpression, Polyline as LeafletPolyline, type PolylineOptions } from 'leaflet';
+import { PathProps } from '@react-leaflet/core';
+import { LatLngExpression, Polyline as LeafletPolyline, PolylineOptions } from 'leaflet';
 import type { ReactNode } from 'react';
 export interface PolylineProps extends PolylineOptions, PathProps {
     children?: ReactNode;

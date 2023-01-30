@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { type LayerProps } from '@react-leaflet/core';
+import { LayerProps } from '@react-leaflet/core';
 import { TileLayer, type WMSOptions, type WMSParams } from 'leaflet';
 export interface WMSTileLayerProps extends WMSOptions, LayerProps {
     params?: WMSParams;
